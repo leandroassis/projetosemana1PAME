@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    background-color: white;
+}
+
+.Hsiik{
+    flex-direction: row;
+    height: 54px;
+    max-width: 990;
+    width: 100%;
+    top:0;
+    position: fixed;
+    border-bottom: 1px solid #dbdbdb;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner{
+    padding: 0 20px;
+    width: 100%;
+    max-width: 975px;
+    height: 54px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pesquisar{
+    height: 28px;
+    width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pesquisar2{
+    width: 215px;
+    height: 28px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline:none;}
+
+.img{
+    display: flex;
+    width: 250px;
+    margin-right: auto;
+}
+
+#instagram{
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+.icons{
+    display: flex;
+    width: 222px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+}
+
+div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    -webkit-box-align: center;
+}
