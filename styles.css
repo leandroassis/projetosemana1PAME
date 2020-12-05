@@ -19,14 +19,13 @@ body, input, button{
     align-items: center;
 }
 .geral{
-    justify-content: normal;
+    align-items: center;
     padding: 27px 20px 0px 20px;
     max-width: 935px;
     width: 100%;
     height: 100%;
     margin: 0;
     margin-bottom: 16px;
-    box-sizing: content-box;
 }
 .cabeca{
     border-bottom: 1px solid #dbdbdb;
@@ -45,10 +44,9 @@ body, input, button{
 }
 
 .foto-publi{
-    object-fit: cover;
     position: relative;
-    width: 100%;
-    padding: 0;
+    width: 96.5%;
+    min-width: 335px;
 }
 
 .sub-foto{
@@ -91,15 +89,63 @@ body, input, button{
     justify-content: center;
 }
 
+.comentarios{
+    position: absolute;
+    width: 335px;
+    left: 580px;
+    bottom:0px;
+}
+
+.comentarios2{
+    bottom:90px;
+    left: 20px;
+}
+
+.escrever-comentario{
+    margin-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 2px solid #dbdbdb;
+    border-radius: 3px;
+    width: 355px;
+    height: 70px;
+    justify-content: center;
+}
+
+.rsFt{
+    outline: none;
+    border: none;
+    padding-left:20px;
+    font-size: 16px;
+}
+
+.icons-inferior{
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 4px;
+    flex-direction: row;    
+    bottom: 5px;
+}
+
+.cora2,.balao,.origami2{
+    margin-right: 15px;
+    margin-right:15px;
+}
+
+.save{
+    margin-left: 180px;
+}
+
 .publi{
-    top:60px;
     max-width: 975px;
-    height: 87%;
-    width: 100%;
-    padding: 0;
+    height: 85.7%;
     border: 1px solid #b3b3b3;
     border-radius: 3px;
+    position: absolute;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .Hsiik{
@@ -221,6 +267,11 @@ div,section{
     flex-direction: column;
     margin: 0;
     padding: 0;
+}
+
+span{
+    justify-content: center;
+    align-items: center;
 }
 
 a{
