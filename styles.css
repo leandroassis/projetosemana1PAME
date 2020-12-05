@@ -34,7 +34,7 @@ body, input, button{
     height: 48px;
     position: absolute;
     right: 19px;
-    display: inline;
+    align-items: center;
     justify-content: center;
 }
 .foto{
@@ -47,12 +47,32 @@ body, input, button{
     position: relative;
     width: 96.5%;
     min-width: 335px;
+    margin: 0;
+    padding: 0px;
+}
+
+.mais{
+    left: 150px;
+    bottom: 29px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguir{
+    left: 40px;
+    bottom: 58px;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavra-seguir{
+    outline: none;
+    color: black;
 }
 
 .sub-foto{
     width: 100%;
     overflow: hidden;
-    padding-bottom: 100%;
     display: block;
     height: 100%;
 }
@@ -69,12 +89,14 @@ body, input, button{
     margin-left: 5%;
     position: absolute;
     margin-bottom: 5%;
+    bottom: 15px;
 }
 
 .fluxo,.fluxo-ufrj{
     color:#262626;
     display: inline;
     position: relative;
+    left: 5px;
 }
 
 .icone-foto{
