@@ -27,21 +27,79 @@ body, input, button{
     margin: 0;
     margin-bottom: 16px;
     box-sizing: content-box;
-    -webkit-box-align: center;
+}
+.cabeca{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 16px;
+    width: 305px;
+    height: 48px;
+    position: absolute;
+    right: 19px;
+    display: inline;
+    justify-content: center;
+}
+.foto{
+    justify-content: center;
+    margin-right: 335px;
+    min-height: 450px;
 }
 
-.foto{
-    background-image: url(https://i.imgur.com/rhWrRSA.jpg);
+.foto-publi{
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.sub-foto{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 100%;
+    display: block;
+    height: 100%;
+}
+.aba-lateral{
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    display: block;
+}
+
+.nome{
+    align-items: center;
+    width: 40%;
+    margin-left: 5%;
+    position: absolute;
+    margin-bottom: 5%;
+}
+
+.fluxo,.fluxo-ufrj{
+    color:#262626;
     display: inline;
-    width: ;
+    position: relative;
+}
+
+.icone-foto{
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    margin: 0%;
+    margin-left: 4px;
+    border: 3px solid #fc8a8a;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .publi{
+    top:60px;
     max-width: 975px;
-    height: 100%;
-    display: inline;
-    flex-direction: row;
+    height: 87%;
+    width: 100%;
+    padding: 0;
     border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    justify-content: center;
 }
 
 .Hsiik{
@@ -50,7 +108,6 @@ body, input, button{
     max-width:100%;
     width: 100%;
     top:0;
-    position: fixed;
     border-bottom: 1px solid #dbdbdb;
     align-items: center;
     justify-content: center;
@@ -162,7 +219,6 @@ div,section{
     align-items: stretch;
     position: relative;
     flex-direction: column;
-    -webkit-box-align: center;
     margin: 0;
     padding: 0;
 }
